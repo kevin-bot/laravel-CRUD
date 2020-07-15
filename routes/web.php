@@ -6,7 +6,8 @@ use App\Estudiante;
 
 Route::get('/', function () {
     //return redirect()->route('estudiantes.mostrar');
-   return "HEllo";
+   //return "HEllo";
+    return view('welcome');
 });
 Route::get('/datatable', 'EstudianteController@dataTable')->name('estudiantes.datatable');
 
