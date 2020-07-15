@@ -23,7 +23,7 @@
                                     <th>Código</th>
                                     <th>Nombres</th>
                                     <th>Apellidos</th>   
-                                    <th>Editarr</th>                                   
+                                    <th>Editar</th>                                   
                                 </tr>
                             </thead>
                         </table>
