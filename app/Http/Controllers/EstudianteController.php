@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Estudiante;
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class EstudianteController extends Controller
 {
@@ -24,8 +24,8 @@ class EstudianteController extends Controller
 
     public function index2()
     {
-        //$estudiantes = DB::table('estudiantes')->orderBy('id')->get();
-        //return view('principal',compact("estudiantes"));
+        $estudiantes = DB::table('estudiantes')->orderBy('id')->get();
+        return view('principal',compact("estudiantes"));
     }
 
 
